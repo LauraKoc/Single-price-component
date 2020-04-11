@@ -17,8 +17,6 @@ body {
   justify-content: center;
   height: 100vh;
   align-items: center;
-
-
 }
 
 .offer__wrapper {
@@ -112,4 +110,28 @@ button {
     border: 2px solid #c0df34;
     -webkit-appearance: button;
     margin-top: 10px;
+}
+
+@media screen and (max-width: 716px) {
+  .offer__wrapper {
+    max-width: 500px;
+    min-width: 320px;
+
+  }
+  .offer__deal-wrap {
+    flex-direction: column;
+    max-width: 500px;
+  }
+  .offer__deal-wrap .offer-block, .offer__deal-wrap .offer-about-block {
+    width: unset;
+  }
+  .offer__deal-wrap .offer-block {
+    border-radius: unset;
+  }
+  .offer__deal-wrap .offer-about-block {
+    border-radius: 0  0 10px  10px ;
+  }
+  footer {
+    margin-top: 40px;
+  }
 }
