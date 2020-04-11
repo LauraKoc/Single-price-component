@@ -1,2 +1,115 @@
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+body {
+  font-size: 16px;
+  font-family: "Karla", sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+
+
+}
+
+.offer__wrapper {
+  max-width: 650px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 5px 5px 15px 5px #BFBFBF;
+}
+
+.offer__join-wrap {
+  padding: 40px;
+  text-align: left;
+}
+
+.offer__join-wrap .title {
+  color: hsl(179, 62%, 43%);
+  font-size: 24px;
+  margin: 0;
+}
+
+.offer__join-wrap .sub-title {
+  color: hsl(71, 73%, 54%);
+  font-size: 19px;
+  margin-top: 24px;
+}
+
+.offer__join-wrap .description {
+  color: #98a6bd;
+  margin-bottom: 0;
+}
+
+.offer__deal-wrap {
+  display: flex;
+  box-sizing: border-box;
+}
+
+.offer__deal-wrap .offer-block ,
+.offer__deal-wrap .offer-about-block {
+  padding: 40px;
+  width: 100%;
+  
+  color: white;
+}
+.offer__deal-wrap h3{
+    font-size: 19px;
+}
+.offer__deal-wrap .offer-block {
+  background-color: #2ab2af;
+  border-radius: 0  0 0  10px ;
+}
+.offer-block .price-wrap {
+    font-size: 32px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+.offer-block .price-wrap span {
+    font-size: 16px;
+    font-weight: 400;
+    padding-left: 15px;
+    letter-spacing: -0.16px;    
+}
+.offer-block .description {
+    white-space: nowrap;
+}
+
+.offer__deal-wrap .offer-about-block {
+  background-color: #4bbebc;
+  border-radius: 0  0 10px 0   ;
+}
+.offer-about-block .offer-list  {
+    padding: 0;    
+}
+.offer-about-block .offer-list li {
+    list-style: none;
+    font-size: 16px;
+    line-height: 1.3;
+    letter-spacing: -1.12px;
+}
+button {
+    width: 100%;
+    padding: 13px;
+    color: #fff;
+    background: #c0df34;
+    box-shadow: 0 1rem 0.8rem rgba(0,0,0,0.1);
+    transition: all 0.2s;
+    border-radius: 5px;
+    text-transform: none;
+    overflow: visible;
+    border: 2px solid #c0df34;
+    -webkit-appearance: button;
+    margin-top: 10px;
+}
